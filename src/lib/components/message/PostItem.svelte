@@ -4,7 +4,6 @@
     import Button from "../generics/Button.svelte";
     import TextInput from "../generics/TextInput.svelte";
     import Comment from "./Comment.svelte";
-    import { fly } from "svelte/transition";
 
     // take in a post object in order to "render" the Conpomnent
     export let post: Post;
